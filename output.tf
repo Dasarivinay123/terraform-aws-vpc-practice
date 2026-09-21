@@ -15,7 +15,7 @@ output "private_subnet_ids" {
   description = "The IDs of the private subnets"
   value       = aws_subnet.private[*].id
 }
-output "database_subnet_id" {
+output "database_subnet_ids" {
   description = "The ID of the database subnet"
   value       = aws_subnet.database[*].id
 }
