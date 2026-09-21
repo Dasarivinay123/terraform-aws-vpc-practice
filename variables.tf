@@ -69,7 +69,7 @@ variable "nat_gateway_tags" {
 }
 variable "is_peering_required" {
   type    = bool
-  default = false
+  default = true
 }
 variable "vpc_peeeirng_tags" {
   type    = map(any)
